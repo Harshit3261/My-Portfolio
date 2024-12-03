@@ -1,0 +1,101 @@
+@import "../../vars.css";
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 61px;
+  z-index: 2;
+  margin: 0 10%;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+  
+}
+
+
+.menuBtn {
+  display: none;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItems {
+  display: flex;
+  gap: 47px;
+  list-style: none;
+}
+
+.menuItems a {
+  font-size: 25px;
+  color: var(--color-text);
+  text-decoration: none;
+  position: relative; /* Required for the background effect */
+  transition: color 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
+}
+
+.menuItems a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5); /* Transparent white */
+  z-index: -1; /* Places the box behind the text */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 5px; /* Optional: adds rounded corners */
+}
+
+.menuItems a:hover {
+  color: white; /* Change text color on hover */
+}
+
+.menuItems a:hover::after {
+  opacity: 1; /* Make the transparent box visible on hover */
+}
+
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+
+  .menuBtn {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menuItems {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    
+  }
+
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+}

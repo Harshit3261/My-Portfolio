@@ -1,0 +1,29 @@
+[
+  {
+    "role": "MCA",
+    "organisation": "Gurukula Kangri Univ.",
+    "startDate": "Sept, 2022",
+    "endDate": "oct,2024",
+    "experiences": ["Computer Application", "Percentage : 68% "],
+    "imageSrc": "history/master.png"
+  },
+  {
+    "role": "B.SC",
+    "organisation": "Ccs University",
+    "startDate": "Aug, 2019",
+    "endDate": "Aug, 2022",
+    "experiences": ["Mathamatics", "Percentage : 71% "],
+    "imageSrc": "history/graduate.png"
+  },
+  {
+    "role": "12th",
+    "organisation": "State Board",
+    "startDate": "April, 2018",
+    "endDate": "April, 2019",
+    "experiences": [
+      "P.C.M",
+      "Percentage : 79% "
+    ],
+    "imageSrc": "history/sss.png"
+  }
+]

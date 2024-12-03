@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Dream Estate",
+    "imageSrc": "projects/RS.jpg",
+    "description": "Dream Estate is an online platform for buyers and sellers, making it easy to sell or purchase rooms and properties directly from property owners.",
+    "skills": ["React", "Express", "Node","MondoDB"],
+    "source": "https://github.com/Harshit3261/dream-estate/tree/master"
+  },
+  {
+    "title": "Chat Application",
+    "imageSrc": "projects/chat.png",
+    "description": "Using this application users can chat with each other and timing will also display simultaneously.",
+    "skills": ["JavaFX","Java Oops", "Socket Programing","JavaSwing"],
+    "source": "https://github.com/Harshit3261/Chatting_application"
+  },
+  {
+    "title": "Amazon Clone",
+    "imageSrc": "projects/images.jpg",
+    "description": "A fully responsive Amazon clone frontend built with modern technologies, featuring intuitive UI, product browsing, search, and category filtering.",
+    "skills": ["Html", "Css"],
+    "source": "https://github.com/Harshit3261/Amazon-clone"
+  }
+]
